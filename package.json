@@ -1,0 +1,17 @@
+{
+  "name": "bird",
+  "version": "1.0.0",
+  "description": "SuperBird251 Hugo site with Tina CMS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tinacms dev -c \"hugo server -D\"",
+    "build": "tinacms build && hugo",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["hugo", "tinacms", "static site"],
+  "author": "SuperBird251",
+  "license": "ISC",
+  "devDependencies": {
+    "tinacms": "^1.6.5"
+  }
+}

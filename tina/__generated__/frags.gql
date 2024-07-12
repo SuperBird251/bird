@@ -1,0 +1,17 @@
+fragment PostParts on Post {
+  __typename
+  title
+  body
+  date
+  description
+  featured_image
+  tags
+}
+
+fragment PageParts on Page {
+  __typename
+  title
+  body
+  description
+  featured_image
+}

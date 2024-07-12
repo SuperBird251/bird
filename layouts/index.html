@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ .Site.Title }}</title>
+</head>
+<body>
+    <h1>Welcome to {{ .Site.Title }}</h1>
+    {{ range .Site.RegularPages }}
+        <article>
+            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            <div>{{ .Summary }}</div>
+        </article>
+    {{ end }}
+</body>
+</html>
