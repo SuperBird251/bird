@@ -37,6 +37,6 @@
 # Redirect default Netlify subdomain to primary domain
 [[redirects]]
   from = "https://superbird251-bird.netlify.app/*"
-  to = "https://your-custom-domain.com/:splat"
+ # to = "https://your-custom-domain.com/:splat"
   status = 301
   force = true
